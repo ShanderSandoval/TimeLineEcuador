@@ -41,7 +41,8 @@
   }
 }
 .timeline-item {
-  padding: 40px 0;
+  scroll-snap-align: center; /* Esto obliga a que el hito se imante al centro */
+  padding: 100px 0;
   opacity: 0.3;
   filter: blur(2px);
   transition: 0.5s;
@@ -57,7 +58,7 @@
   width: 100%;
   position: absolute;
   color: rgba(255, 255, 255, 0.5);
-  font-size: 13px;
+  font-size: 20px;
   font-family: "Pathway Gothic One", sans-serif;
   border-left: 2px solid rgba(255, 255, 255, 0.5);
   top: 70%;
